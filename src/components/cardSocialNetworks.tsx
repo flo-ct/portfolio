@@ -2,7 +2,7 @@ import { FaFilePdf, FaGithub, FaLinkedin } from "react-icons/fa";
 
 export function FSocialNetworks() {
     return (
-        <div className="social_networks">
+        <div className="social_networks bg-gray-700">
             <div className="github">
                 <a href="https://github.com/flo-ct"
                     target="_blank"

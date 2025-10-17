@@ -9,7 +9,7 @@ import { FSocialNetworks } from "../components/cardSocialNetworks";
 
 export default function FHome() {
   return (
-    <div>
+    <main className="bg-gray-800">
       <FHeader />
       <FNavigationMenu />
       <FSocialNetworks />
@@ -18,6 +18,6 @@ export default function FHome() {
       <FProjects />
       <FEducation />
       <FFooter />
-    </div>);
+    </main>);
 }
 

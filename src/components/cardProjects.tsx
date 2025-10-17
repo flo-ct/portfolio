@@ -4,10 +4,10 @@ import Image from "next/image";
 
 export function FProjects() {
     return (
-        <section id="Projects">
-            <h2>Projects</h2>
+        <section id="Projects" className="bg-gray-700 shadow-sm rounded-lg p-6">
+            <h2 className="text-gray-300 text-white text-xl mb-2">Projects</h2>
             <section className="ProjectA">
-                <h3>Project name</h3>
+                <h3 className="text-gray-300 text-lg font-medium mb-1 text-gray-300">Project name</h3>
                 <Image
                     src="/images/example.webp"
                     alt="Profile picture"
@@ -15,14 +15,14 @@ export function FProjects() {
                     height={200}
                     priority
                 />
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a</p>
+                <p className="text-gray-100">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a</p>
                 <section>
                     {listsOfSkills.projectA.map((skill) =>
                         (<Tag key={skill}>{skill}</Tag>))}
                 </section>
             </section>
             <section className="ProjectB">
-                <h3>Project name</h3>
+                <h3 className="text-gray-300 text-lg font-medium mb-1 text-gray-300">Project name</h3>
                 <Image
                     src="/images/example.webp"
                     alt="Profile picture"
@@ -30,7 +30,7 @@ export function FProjects() {
                     height={200}
                     priority
                 />
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a</p>
+                <p className="text-gray-100">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a</p>
                 <section>
                     {listsOfSkills.projectB.map((skill) =>
                         (<Tag key={skill}>{skill}</Tag>))}
