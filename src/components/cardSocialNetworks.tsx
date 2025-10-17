@@ -2,14 +2,13 @@ import { FaFilePdf, FaGithub, FaLinkedin } from "react-icons/fa";
 
 export function FSocialNetworks() {
     return (
-        <div>
+        <div className="flex justify-center">
             <div className="github bg-gray-900 hover:bg-gray-800/50 transition-colors duration-200 p-6 rounded-lg">
                 <a href="https://github.com/flo-ct"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <FaGithub size={18} /> GitHub
-                </a>
+                    <FaGithub size={18} /></a>
             </div>
             <div className="linkedin bg-gray-900 hover:bg-gray-800/50 transition-colors duration-200 p-6 rounded-lg">
                 <a
@@ -17,17 +16,16 @@ export function FSocialNetworks() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <FaLinkedin size={18} /> LinkedIn
-                </a>
+                    <FaLinkedin size={18} /></a>
             </div>
-            <div className="resume bg-gray-900 hover:bg-gray-800/50 transition-colors duration-200 p-6 rounded-lg">
+            <div className="resume bg-gray-900 hover:bg-gray-800/50 transition-colors duration-200 p-6 rou<nded-lg">
                 <a
                 href="/Florian_Chouquet_Resume_FullStack_or_BackEnd_Developer_Apprenticeship.pdf"
                 download
                 >
-                    <FaFilePdf size={18} /> Resume
-                </a>
+                    <FaFilePdf size={18} /></a>
             </div>
+            <div className="resume bg-gray-900 hover:bg-gray-800/50 transition-colors duration-200 p-6 rounded-lg text-sm text-center">&larr; Download my resume</div>
         </div>
     )
 };
