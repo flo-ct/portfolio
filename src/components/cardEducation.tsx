@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export function FEducation() {
     return (
-        <div id="Education">
+        <section id="education">
             <h2>Education</h2>
-            <div className="SchoolA">
+            <section className="SchoolA">
                 <p>
                     <time dateTime="2024-10">2024-10</time> - <time dateTime="2025-01">2025-01</time>
                 </p>
@@ -19,12 +19,12 @@ export function FEducation() {
                     priority
                 />
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a</p>
-                <div>
-                    {listsOfSkills.SchoolA.map((skill) =>
+                <section>
+                    {listsOfSkills.schoolA.map((skill) =>
                         (<Tag key={skill}>{skill}</Tag>))}
-                </div>
-            </div>
-            <div className="SchoolB">
+                </section>
+            </section>
+            <section className="SchoolB">
                 <p>
                     <time dateTime="2024-10">2024-10</time> - <time dateTime="2025-01">2025-01</time>
                 </p>
@@ -37,12 +37,12 @@ export function FEducation() {
                     priority
                 />
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a</p>
-                <div>
-                    {listsOfSkills.SchoolB.map((skill) =>
+                <section>
+                    {listsOfSkills.schoolB.map((skill) =>
                         (<Tag key={skill}>{skill}</Tag>))}
-                </div>
-            </div>
-            <div className="SchoolC">
+                </section>
+            </section>
+            <section className="SchoolC">
                 <p>
                     <time dateTime="2024-10">2024-10</time> - <time dateTime="2025-01">2025-01</time>
                 </p>
@@ -55,11 +55,11 @@ export function FEducation() {
                     priority
                 />
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a</p>
-                <div>
-                    {listsOfSkills.SchoolC.map((skill) =>
+                <section>
+                    {listsOfSkills.schoolC.map((skill) =>
                         (<Tag key={skill}>{skill}</Tag>))}
-                </div>
-            </div>
-        </div>
+                </section>
+            </section>
+        </section>
     );
 }

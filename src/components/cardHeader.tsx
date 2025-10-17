@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function FHeader() {
     return (
-        <header>
+        <header id="header">
             <h1>Firstname Lastname</h1>
             <h2>Title</h2>
             <Image

@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export function FExperiences() {
     return (
-        <div id="Experiences">
+        <section id="experiences">
             <h2>Experiences</h2>
-            <div className="ExperienceA">
+            <article className="ExperienceA">
                 <p>
                     <time dateTime="2024-10">2024-10</time> - <time dateTime="2025-01">2025-01</time>
                 </p>
@@ -19,12 +19,12 @@ export function FExperiences() {
                     priority
                 />
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a</p>
-                <div>
-                    {listsOfSkills.ExperienceA.map((skill) =>
+                <article>
+                    {listsOfSkills.experienceA.map((skill) =>
                         (<Tag key={skill}>{skill}</Tag>))}
-                </div>
-            </div>
-            <div className="ExperienceB">
+                </article>
+            </article>
+            <article className="ExperienceB">
                 <p>
                     <time dateTime="2024-10">2024-10</time> - <time dateTime="2025-01">2025-01</time>
                 </p>
@@ -37,12 +37,12 @@ export function FExperiences() {
                     priority
                 />
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a</p>
-                <div>
-                    {listsOfSkills.ExperienceB.map((skill) =>
+                <article>
+                    {listsOfSkills.experienceB.map((skill) =>
                         (<Tag key={skill}>{skill}</Tag>))}
-                </div>
-            </div>
-            <div className="ExperienceC">
+                </article>
+            </article>
+            <article className="ExperienceC">
                 <p>
                     <time dateTime="2024-10">2024-10</time> - <time dateTime="2025-01">2025-01</time>
                 </p>
@@ -55,11 +55,11 @@ export function FExperiences() {
                     priority
                 />
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a</p>
-                <div>
-                    {listsOfSkills.ExperienceC.map((skill) =>
+                <article>
+                    {listsOfSkills.experienceC.map((skill) =>
                         (<Tag key={skill}>{skill}</Tag>))}
-                </div>
-            </div>
-        </div>
+                </article>
+            </article>
+        </section>
     );
 }
