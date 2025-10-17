@@ -2,8 +2,8 @@ import { FaFilePdf, FaGithub, FaLinkedin } from "react-icons/fa";
 
 export function FSocialNetworks() {
     return (
-        <div className="social_networks bg-gray-700">
-            <div className="github">
+        <div>
+            <div className="github bg-gray-900 hover:bg-gray-800/50 transition-colors duration-200 p-6 rounded-lg">
                 <a href="https://github.com/flo-ct"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -11,7 +11,7 @@ export function FSocialNetworks() {
                     <FaGithub size={18} /> GitHub
                 </a>
             </div>
-            <div className="linkedin">
+            <div className="linkedin bg-gray-900 hover:bg-gray-800/50 transition-colors duration-200 p-6 rounded-lg">
                 <a
                     href="https://www.linkedin.com/in/florian-chouquet/"
                     target="_blank"
@@ -20,7 +20,7 @@ export function FSocialNetworks() {
                     <FaLinkedin size={18} /> LinkedIn
                 </a>
             </div>
-            <div className="resume">
+            <div className="resume bg-gray-900 hover:bg-gray-800/50 transition-colors duration-200 p-6 rounded-lg">
                 <a
                 href="/Florian_Chouquet_Resume_FullStack_or_BackEnd_Developer_Apprenticeship.pdf"
                 download

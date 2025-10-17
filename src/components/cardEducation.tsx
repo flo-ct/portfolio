@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function FEducation() {
     return (
-        <section id="education" className="bg-gray-700 shadow-sm rounded-lg p-6">
+        <section id="education" className="bg-gray-900 hover:bg-gray-800/50 transition-colors duration-200 p-6 rounded-lg">
             <h2 className="text-gray-300 text-white text-xl mb-2">Education</h2>
             <section className="SchoolA">
                 <p className="text-gray-100">

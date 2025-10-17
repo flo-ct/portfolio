@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function FProjects() {
     return (
-        <section id="Projects" className="bg-gray-700 shadow-sm rounded-lg p-6">
+        <section id="Projects" className="bg-gray-900 hover:bg-gray-800/50 transition-colors duration-200 p-6 rounded-lg">
             <h2 className="text-gray-300 text-white text-xl mb-2">Projects</h2>
             <section className="ProjectA">
                 <h3 className="text-gray-300 text-lg font-medium mb-1 text-gray-300">Project name</h3>

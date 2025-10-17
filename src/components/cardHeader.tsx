@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function FHeader() {
     return (
-        <header id="header" className="bg-gray-700 shadow-sm rounded-lg p-6">
+        <header id="header" className="bg-gray-900 hover:bg-gray-800/50 transition-colors duration-200 p-6 rounded-lg">
             <h1 className="text-gray-300 text-3xl font-bold mb-4">Firstname Lastname</h1>
             <h2 className="text-gray-300 text-xl font-semibold mb-2">Title</h2>
             <Image
