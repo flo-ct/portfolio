@@ -9,7 +9,7 @@ Bienvenue sur mon portfolio. L'objectif est de réunir mes projets, de partager 
 ## Lancer en local
 
 ```bash
-git clone 
+git clone git@github.com:flo-ct/portfolio.git
 cd portfolio
 npm install
 npm start
