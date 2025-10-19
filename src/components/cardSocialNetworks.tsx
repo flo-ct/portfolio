@@ -25,7 +25,7 @@ export function FSocialNetworks() {
                 >
                     <FaFilePdf size={18} /></a>
             </div>
-            <div className="resume bg-gray-900 hover:bg-gray-800/50 transition-colors duration-200 p-6 rounded-lg text-sm text-center">&larr; Download my resume</div>
+            <div className="resume bg-gray-900 hover:bg-gray-800/50 transition-colors duration-200 p-6 rounded-lg text-sm text-center">&larr; Télécharger mon CV</div>
         </div>
     )
 };

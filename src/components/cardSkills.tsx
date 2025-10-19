@@ -1,10 +1,10 @@
 export const listsOfSkills = {
-    "experienceA": ["SkillA", "SkillB", "SkillC"],
-    "experienceB": ["SkillA", "SkillB", "SkillC"],
-    "experienceC": ["SkillA", "SkillB", "SkillC"],
-    "schoolA": ["SkillA", "SkillB", "SkillC"],
-    "schoolB": ["SkillA", "SkillB", "SkillC"],
-    "schoolC": ["SkillA", "SkillB", "SkillC"],
-    "projectA": ["SkillA", "SkillB", "SkillC"],
+    "experienceA": ["SEO", "SEA", "Google Ads", "Microsoft Ads", "Analytics", "Google Tag Manager"],
+    "experienceB": ["SEM", "SEA", "SMA", "Google Ads", "Microsoft Ads", "LinkedIn Ads", "Meta Ads"],
+    "experienceC": ["SEM", "SEA", "SEO", "Google Ads", "Microsoft Ads", "LinkedIn Ads"],
+    "schoolA": ["Python", "GitHub", "Java", "DevOps", "IA", "Data", "HTML", "CSS", "JavaScript"],
+    "schoolB": ["SEO", "SEA", "Web Analytics", "UX"],
+    "schoolC": ["Marketing", "Finance", "Comptabilité", "Droit des affaires", "Géopolitique"],
+    "projectA": ["HTML", "CSS", "JavaScript"],
     "projectB": ["SkillA", "SkillB", "SkillC"],
 }

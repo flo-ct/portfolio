@@ -1,7 +1,9 @@
+import { FSocialNetworks } from "../components/cardSocialNetworks";
+
 export function FFooter() {
     return (
         <footer id="footer" className="fixed md:static bottom-0 left-0 w-full py-4 bg-gray-900/80 backdrop-blur-md hover:bg-gray-800/50 transition-colors duration-200 p-6 rounded-t-lg md:rounded-lg">
-            <p className="text-gray-100">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu</p>
+            <FSocialNetworks />
         </footer>
     );
 }
