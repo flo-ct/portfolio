@@ -24,7 +24,7 @@ export function FProjects() {
                 <div className="flex-1">
                     <h3 className="text-gray-300 text-lg font-medium mb-2">Job Board interactif</h3>
                     <p className="text-gray-100 mb-4">
-                        Création d'un Job Board interactif permettant la consultation et la gestion d&#39;offres d&#39;emploi. Trois profils sont disponibles : candidat, RH et administrateur. Le projet inclut une base de données SQL, une interface front-end en HTML/CSS/JS, un backend utilisant les opérations CRUD, un formulaire de candidature et un système d&#39;authentification.
+                        Création d&#39;un Job Board interactif permettant la consultation et la gestion d&#39;offres d&#39;emploi. Trois profils sont disponibles : candidat, RH et administrateur. Le projet inclut une base de données SQL, une interface front-end en HTML/CSS/JS, un backend utilisant les opérations CRUD, un formulaire de candidature et un système d&#39;authentification.
                     </p>
                     <div className="flex flex-wrap gap-2">
                         {listsOfSkills.projectA.map((skill) =>

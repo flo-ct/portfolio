@@ -25,7 +25,7 @@ export function FEducation() {
                         <time>2025-09</time> - <time>2028-09</time>
                     </p>
                     <p className="text-gray-100 mb-4">
-                        J&#39;ai intégré en septembre 2025 le Master of Science d'Epitech. La période de septembre à décembre est intensive et dédiée à l&#39;acquisition de compétences techniques pour me rendre opérationnel pour une alternance dès janvier 2026. Je suis formé aux principaux langages de programmation, au DevOps ainsi qu&#39;à la cybersécurité.
+                        J&#39;ai intégré en septembre 2025 le Master of Science d&#39;Epitech. La période de septembre à décembre est intensive et dédiée à l&#39;acquisition de compétences techniques pour me rendre opérationnel pour une alternance dès janvier 2026. Je suis formé aux principaux langages de programmation, au DevOps ainsi qu&#39;à la cybersécurité.
                     </p>
                     <div className="flex flex-wrap gap-2">
                         {listsOfSkills.schoolA.map((skill) =>
