@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function FExperiences() {
     return (
-        <section id="experiences" className="bg-gray-900 hover:bg-gray-800/50 transition-colors duration-200 p-6 relative">
+        <section id="experiences" className="pb-24 md:pb-0 bg-gray-900 hover:bg-gray-800/50 transition-colors duration-200 p-6 relative">
             <h2 className="text-gray-300 text-white text-xl mb-4">Experiences</h2>
             <article className="relative bg-transparent rounded-lg">
                 <div className="absolute top-4 right-4 w-10 h-10 md:w-12 md:h-12 lg:w-16 lg:h-16 overflow-hidden">

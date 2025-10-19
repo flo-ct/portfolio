@@ -17,9 +17,9 @@ export default function FHome() {
       </div>
       <div className="w-full md:ml-[33.3333%] w-2/3 p-6 space-y-8 bg-gray-900 text-gray-100">
         <FAbout />
-        <FExperiences />
         <FProjects />
         <FEducation />
+        <FExperiences />
         <FFooter />
       </div>
     </main>);
