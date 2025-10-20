@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function FExperiences() {
     return (
-        <section id="Projects" className="bg-gray-900 hover:bg-gray-800/50 transition-colors duration-200 p-6 rounded-lg space-y-8 pb-24">
+        <section id="experiences" className="bg-gray-900 hover:bg-gray-800/50 transition-colors duration-200 p-6 rounded-lg space-y-8 pb-24">
             <h2 className="text-white text-xl mb-4">Expériences</h2>
             <article className="flex flex-col md:flex-row items-start bg-transparent rounded-lg p-4 gap-6">
                 <div className="flex-shrink-0 w-24 md:w-32 lg:w-40 max-w-full">
