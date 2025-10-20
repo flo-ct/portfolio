@@ -13,3 +13,7 @@ git clone git@github.com:flo-ct/portfolio.git
 cd portfolio
 npm install
 npm start
+
+## Accéder au projet par l'URL
+
+https://florian-chouquet-portfolio-m5gdsvqch-florians-projects-fb8ebaf9.vercel.app/
