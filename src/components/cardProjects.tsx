@@ -50,7 +50,7 @@ export function FProjects() {
                 <div className="flex-1">
                     <h3 className="text-gray-300 text-lg font-medium mb-2">Plateformer 2D</h3>
                     <p className="text-gray-100 mb-4">
-                        Création d&#39;un jeu de plateforme et de ses principales fonctionnalités : gestion des collisions, déplacements, sauts, création de niveaux et conception de l'architecture.
+                        Création d&#39;un jeu de plateforme et de ses principales fonctionnalités : gestion des collisions, déplacements, sauts, création de niveaux et conception de l&#39;architecture.
                     </p>
                     <div className="flex flex-wrap gap-2">
                         {listsOfSkills.projectC.map((skill) =>
