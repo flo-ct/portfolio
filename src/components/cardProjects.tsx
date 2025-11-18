@@ -24,7 +24,7 @@ export function FProjects() {
                 <div className="flex-1">
                     <h3 className="text-gray-300 text-lg font-medium mb-2">IdeaBoard</h3>
                     <p className="text-gray-100 mb-4">
-                        Création d&#39;une application (base de données, back-end, front-end) permettant aux utilisateurs de créer et d'interagir avec des tâches sur un tableau dynamique (création de tâches, ajout de commentaires et de likes).
+                        Création d&#39;une application (base de données, back-end, front-end) permettant aux utilisateurs de créer et d&#39;interagir avec des tâches sur un tableau dynamique (création de tâches, ajout de commentaires et de likes).
                     </p>
                     <div className="flex flex-wrap gap-2">
                         {listsOfSkills.projectB.map((skill) =>
