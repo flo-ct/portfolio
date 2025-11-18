@@ -12,7 +12,7 @@ export function FProjects() {
                 <div className="flex-shrink-0 w-24 md:w-32 lg:w-40 max-w-full">
                     <Image
                         src="/images/ideaboard.webp"
-                        alt="Project image"
+                        alt="IdeaBoard image"
                         width={160}
                         height={160}
                         className="object-cover rounded-lg w-full h-auto"
@@ -38,7 +38,7 @@ export function FProjects() {
                 <div className="flex-shrink-0 w-24 md:w-32 lg:w-40 max-w-full">
                     <Image
                         src="/images/job-board-interactif.webp"
-                        alt="Project image"
+                        alt="Job Board image"
                         width={160}
                         height={160}
                         className="object-cover rounded-lg w-full h-auto"
