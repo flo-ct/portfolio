@@ -20,7 +20,7 @@ export function FSocialNetworks() {
             </div>
             <div className="resume bg-gray-900 hover:bg-gray-800/50 transition-colors duration-200 p-6 rou<nded-lg">
                 <a
-                href="/Florian_Chouquet_Resume_FullStack_or_BackEnd_Developer_Apprenticeship.pdf"
+                href="/Florian_Chouquet_CV_Alternance_Développeur_Full_Stack.pdf"
                 download
                 >
                     <FaFilePdf size={18} /></a>
