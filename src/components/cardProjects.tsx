@@ -11,7 +11,7 @@ export function FProjects() {
 
                 <div className="flex-shrink-0 w-24 md:w-32 lg:w-40 max-w-full">
                     <Image
-                        src="/images/job-board-interactif.webp"
+                        src="/images/ideaboard.webp"
                         alt="Project image"
                         width={160}
                         height={160}
@@ -22,18 +22,18 @@ export function FProjects() {
 
 
                 <div className="flex-1">
-                    <h3 className="text-gray-300 text-lg font-medium mb-2">Job Board interactif</h3>
+                    <h3 className="text-gray-300 text-lg font-medium mb-2">IdeaBoard</h3>
                     <p className="text-gray-100 mb-4">
-                        Création d&#39;un Job Board interactif permettant la consultation et la gestion d&#39;offres d&#39;emploi. Trois profils sont disponibles : candidat, RH et administrateur. Le projet inclut une base de données SQL, une interface front-end en HTML/CSS/JS, un backend utilisant les opérations CRUD, un formulaire de candidature et un système d&#39;authentification.
+                        Création d&#39;une application (base de données, back-end, front-end) permettant aux utilisateurs de créer et d'interagir avec des tâches sur un tableau dynamique (création de tâches, ajout de commentaires et de likes).
                     </p>
                     <div className="flex flex-wrap gap-2">
-                        {listsOfSkills.projectA.map((skill) =>
+                        {listsOfSkills.projectB.map((skill) =>
                             (<Tag key={skill}>{skill}</Tag>))}
                     </div>
                 </div>
             </article>
 
-                        <article className="flex flex-col md:flex-row items-start bg-transparent rounded-lg p-4 gap-6">
+            <article className="flex flex-col md:flex-row items-start bg-transparent rounded-lg p-4 gap-6">
 
                 <div className="flex-shrink-0 w-24 md:w-32 lg:w-40 max-w-full">
                     <Image
