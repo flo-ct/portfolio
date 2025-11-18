@@ -5,7 +5,7 @@ export const listsOfSkills = {
     "schoolA": ["Python", "GitHub", "Java", "DevOps", "IA", "Data", "HTML", "CSS", "JavaScript"],
     "schoolB": ["SEO", "SEA", "Web Analytics", "UX"],
     "schoolC": ["Marketing", "Finance", "Comptabilité", "Droit des affaires", "Géopolitique"],
-    "projectA": ["Node.js", "Express", "HTML", "CSS", "JavaScript", "PostgreSQL"],
-    "projectB": ["Vue.js", "Fastify", "TypeScript", "PostgreSQL", "GitHub"],
-    "projectC": ["SkillA", "SkillB", "SkillC"],
+    "projectA": ["Node.js", "Express", "HTML", "CSS", "JavaScript", "PostgreSQL", "Visual Studio Code"],
+    "projectB": ["Vue.js", "Fastify", "TypeScript", "PostgreSQL", "GitHub", "Visual Studio Code"],
+    "projectC": ["Java", "JavaFX", "IntelliJ", "Résolution de problèmes", "OOP"],
 }

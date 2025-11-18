@@ -37,6 +37,32 @@ export function FProjects() {
 
                 <div className="flex-shrink-0 w-24 md:w-32 lg:w-40 max-w-full">
                     <Image
+                        src="/images/plateformer.webp"
+                        alt="IdeaBoard image"
+                        width={160}
+                        height={160}
+                        className="object-cover rounded-lg w-full h-auto"
+                        priority
+                    />
+                </div>
+
+
+                <div className="flex-1">
+                    <h3 className="text-gray-300 text-lg font-medium mb-2">Plateformer 2D</h3>
+                    <p className="text-gray-100 mb-4">
+                        Création d&#39;un jeu de plateforme et de ses principales fonctionnalités : gestion des collisions, déplacements, sauts, création de niveaux et conception de l'architecture.
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                        {listsOfSkills.projectC.map((skill) =>
+                            (<Tag key={skill}>{skill}</Tag>))}
+                    </div>
+                </div>
+            </article>
+
+            <article className="flex flex-col md:flex-row items-start bg-transparent rounded-lg p-4 gap-6">
+
+                <div className="flex-shrink-0 w-24 md:w-32 lg:w-40 max-w-full">
+                    <Image
                         src="/images/job-board-interactif.webp"
                         alt="Job Board image"
                         width={160}
